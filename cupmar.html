@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Woodbeck Vs. Holmes:</title>
+        <link href="cup.css" type="text/css" rel='stylesheet'>
+            </head>
+    
+    <!--Navigation Header-->
+    <body background="back1.jpeg">
+        <ul class="nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="results.html">Results</a></li>
+            <li><a href="cup.html">Michigan Cup</a></li>
+            <li><a href="bio.html">Athlete Bios</a></li>
+            <li><a href="photos.html">Photos</a></li>
+            <li><a href="junk.html">Junk</a></li>
+        </ul>
+        
+        <!--Header Background-->
+        <div class="toprect">
+            <h1>Michigan World Cup Calendar</h1>
+            <img class="viessman" src="viessman.jpeg">
+                </div>
+        
+        <!--Body Background-->
+        <div id="rectangle">
+            
+            <!--Back Month Navigator-->
+            <a href="cupfeb.html">
+                <div class="backbutton">
+                    <div class="backarrow"><</div>
+                        <h3>Last Month</h3>
+                    </div>
+                    </a>
+            
+            <!--Month Dropdown Navigator-->
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">March</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="cup.html">December</a>
+                    <a href="cupjan.html">January</a>
+                    <a href="cupfeb.html">February</a>
+                </div>
+            </div>
+            
+            <!--Forward Month Navigator-->
+            <a href="cupmar.html">
+                <div class="forwardbutton">
+                    <div class="forwardarrow">></div>
+                    <h3>Next Month</h3>
+                </div>
+            </a>
+            
+            <!--Dropdown Script-->
+            <script>
+                /* When the user clicks on the button,
+                 toggle between hiding and showing the dropdown content */
+            function myFunction() {
+                document.getElementById("myDropdown").classList.toggle("show");
+            }
+            
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function(event) {
+                if (!event.target.matches('.dropbtn')) {
+                    
+                    var dropdowns = document.getElementsByClassName("dropdown-content");
+                    var i;
+                    for (i = 0; i < dropdowns.length; i++) {
+                        var openDropdown = dropdowns[i];
+                        if (openDropdown.classList.contains('show')) {
+                            openDropdown.classList.remove('show');
+                        }
+                    }
+                }
+            }
+            </script>
+            
+            <!--Overall Calendar-->
+            <div class="calendar">
+                <div class="days">
+                    <ul class="cal">
+                        <li class="day">Mon</li>
+                        <li class="day">Tue</li>
+                        <li class="day">Wed</li>
+                        <li class="day">Thu</li>
+                        <li class="day">Fri</li>
+                        <li class="day">Sat</li>
+                        <li class="day">Sun</li>
+                    </ul>
+                </div>
+                
+                <div class="day"><h4>27</h4></div>
+                <div class="day"><h4>28</h4></div>
+                <div class="day"><h4>1</h4></div>
+                <div class="day"><h4>2</h4></div>
+                <div class="day"><h4>3</h4></div>
+                <div class="day"><h4>4</h4>
+                    <a href="http://www.nordicskiracer.com/event-details.asp?id=2312"><div class="racedata">
+                        <h5>Black Mountain Classic</h5>
+                        <h5>31 km C Mst</h5>
+                    </div></a>
+                </div>
+                <div class="day"><h4>5</h4>
+                    <a href="http://www.nordicskiracer.com/event-details.asp?id=2312"><div class="racedata">
+                        <h5>Black Mountain Fresstyle</h5>
+                        <h5>10 km F Mst</h5>
+                    </div></a>
+                </div>
+                
+                <div class="day"><h4>6</h4></div>
+                <div class="day"><h4>7</h4></div>
+                <div class="day"><h4>8</h4></div>
+                <div class="day"><h4>9</h4></div>
+                <div class="day"><h4>10</h4></div>
+                <div class="day"><h4>11</h4></div>
+                <div class="day"><h4>12</h4>
+                    <a href="http://www.uselessjunk.com/v/112108?Shake-That-Bear----aka---rednecks-having-sex-on-dead-bear"><div class="racedata">
+                        <h5>Great Bear Chase</h5>
+                        <h5>50 km Skiathlon Mst</h5>
+                    </div><a>
+                </div>
+                
+                <div class="day"><h4>13</h4></div>
+                <div class="day"><h4>14</h4></div>
+                <div class="day"><h4>15</h4></div>
+                <div class="day"><h4>16</h4></div>
+                <div class="day"><h4>17</h4>
+                    <a href="http://alexharvey.ca/"><div class="racedata">
+                        <h5>Quebec World Cup</h5>
+                        <h5>Drunk Race Watching</h5>
+                    </div></a>
+                </div>
+                <div class="day"><h4>18</h4>
+                    <a href="http://www.youtube.com/watch?v=jvJxyM2YsX8&t=4m15s"><div class="racedata">
+                        <h5>Quebec World Cup</h5>
+                        <h5>Drunk Race Watching</h5>
+                    </div></a>
+                </div>
+                <div class="day"><h4>19</h4>
+                    <div class="racedata">
+                        <a href="https://scontent-ord1-1.xx.fbcdn.net/v/t31.0-8/s960x960/12719546_1522063604791172_2259614535692843400_o.jpg?oh=def15eea985f0f490de0c439c01c6197&oe=5920FCB5"><h5>Quebec World Cup</h5>
+                        <h5>Drunk Race Watching</h5>
+                    </div></a>
+                </div>
+                
+                <div class="day"><h4>20</h4></div>
+                <div class="day"><h4>21</h4></div>
+                <div class="day"><h4>22</h4></div>
+                <div class="day"><h4>23</h4></div>
+                <div class="day"><h4>24</h4></div>
+                <div class="day"><h4>25</h4>
+                    <a href="http://www.youtube.com/watch?v=WccfbPQNMbg&t=0m15s"><div class="racedata">
+                        <h5>Beer Chase?</h5>
+                        <h5>5 km Drunk</h5>
+                    </div></a>
+                </div>
+                <div class="day"><h4>26</h4></div>
+                
+                <div class="day"><h4>27</h4></div>
+                <div class="day"><h4>28</h4></div>
+                <div class="day"><h4>29</h4></div>
+                <div class="day"><h4>30</h4></div>
+                <div class="day"><h4>31</h4></div>
+                <div class="day"><h4>1</h4></div>
+                <div class="day"><h4>2</h4></div>
+            </div>
+        </div>
+    </body>
+</html>
