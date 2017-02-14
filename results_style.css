@@ -525,6 +525,39 @@ li a:hover {
     overflow:auto;
 }
 
+#rectangle5{
+    margin:auto;
+    padding-top:10px;
+    margin-top: 40px;
+    width:1000px;
+    height:2400px;
+    background:white;
+    z-index:-1;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    padding-bottom:10px;
+    overflow:auto;
+}
+
+#rectangle6{
+    margin:auto;
+    padding-top:10px;
+    margin-top: 40px;
+    width:1000px;
+    height:2600px;
+    background:white;
+    z-index:-1;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    padding-bottom:10px;
+    overflow:auto;
+}
+
+
 table {
     border:1px solid black;
     margin-left:auto;
